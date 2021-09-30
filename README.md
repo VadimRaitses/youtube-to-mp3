@@ -4,7 +4,8 @@ Extract audio from youtube video
        virtualenv venv 
        source venv/bin/activate
 
-       brew install ffmpeg 
+       brew install ffmpeg
+       pip install youtube_dl 
        pip install  ffmpeg
        
        python -m get_audio --url "youtube url"
